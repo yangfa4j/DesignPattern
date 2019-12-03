@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d37c639e-9d6a-4769-8d4f-b72e7e40a4be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bridge/Black.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Gray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/White.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/ACoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/ADecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/BCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/BDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Drink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPattern/adapter/interfaceadapter/Adapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/adapter/interfaceadapter/Adapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPattern/adapter/interfaceadapter/Phone$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/adapter/interfaceadapter/Phone$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPattern/adapter/interfaceadapter/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/adapter/interfaceadapter/Phone.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (4)">
+  <component name="RunManager" selected="Application.Client (5)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adapter.classadapter.Client" />
       <module name="designPattern" />
@@ -133,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="prototpye.Client" />
+    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decorator.Client" />
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="prototpye.*" />
+          <option name="PATTERN" value="decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +176,8 @@
       <workItem from="1575252827089" duration="7146000" />
       <workItem from="1575274651031" duration="12000" />
       <workItem from="1575274676352" duration="207000" />
-      <workItem from="1575274888099" duration="4358000" />
+      <workItem from="1575274888099" duration="4622000" />
+      <workItem from="1575337014261" duration="10448000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式-单例模式">
       <created>1574660471680</created>
@@ -203,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575274428298</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="桥接模式">
+      <created>1575281981534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575281981534</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +229,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="设计模式-单例模式" />
     <MESSAGE value="2019-12-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-12-2" />
+    <MESSAGE value="桥接模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="桥接模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
