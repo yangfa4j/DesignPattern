@@ -1,5 +1,7 @@
 package decorator;
 
+import java.util.Objects;
+
 /**
  * @Date 2019/12/3
  * @Author yangfa
@@ -24,5 +26,6 @@ public class Client {
         System.out.println("description1 = " + description1);
         float cost1 = aDecorator.cost();
         System.out.println("cost1 = " + cost1);
+
     }
 }
