@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d37c639e-9d6a-4769-8d4f-b72e7e40a4be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/decorator/ACoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/ADecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/BCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/BDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/College.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/Organization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,20 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (5)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adapter.classadapter.Client" />
-      <module name="designPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adapter.classadapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adapter.objectadapter.Client" />
       <module name="designPattern" />
@@ -142,13 +127,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="composite.Client" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +175,9 @@
       <workItem from="1575274651031" duration="12000" />
       <workItem from="1575274676352" duration="207000" />
       <workItem from="1575274888099" duration="4622000" />
-      <workItem from="1575337014261" duration="10448000" />
+      <workItem from="1575337014261" duration="10657000" />
+      <workItem from="1575365601701" duration="2799000" />
+      <workItem from="1575425216317" duration="2394000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式-单例模式">
       <created>1574660471680</created>
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575281981534</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="装饰者模式">
+      <created>1575358420133</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575358420133</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +237,8 @@
     <MESSAGE value="设计模式-单例模式" />
     <MESSAGE value="2019-12-2" />
     <MESSAGE value="桥接模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="桥接模式" />
+    <MESSAGE value="装饰者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="装饰者模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
