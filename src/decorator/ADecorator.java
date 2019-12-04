@@ -9,7 +9,7 @@ public class ADecorator extends Decorator {
 
     public ADecorator(Drink drink) {
         super(drink);
-        setDescription( " 巧克力 ");
-        setPrice(3.0f);
+        super.setDescription( " 巧克力 ");
+        super.setPrice(3.0f);
     }
 }

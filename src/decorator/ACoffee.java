@@ -8,7 +8,7 @@ package decorator;
 public class ACoffee extends Coffee{
 
     public ACoffee() {
-        setDescription(" A类型的咖啡 ");
-        setPrice(15.0f);
+        super.setDescription(" A类型的咖啡 ");
+        super.setPrice(15.0f);
     }
 }
