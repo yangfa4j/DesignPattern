@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d37c639e-9d6a-4769-8d4f-b72e7e40a4be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/flyweight/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flyweight/ConcreteWebSite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flyweight/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flyweight/WebSite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flyweight/WebSiteFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/staticproxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/staticproxy/ITeach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/staticproxy/TeachProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/staticproxy/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.Client (3)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="facade.Client" />
       <module name="designPattern" />
@@ -101,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bridge.Client" />
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proxy.staticproxy.Client" />
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bridge.*" />
+          <option name="PATTERN" value="proxy.staticproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Client (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +178,7 @@
       <workItem from="1575425216317" duration="5859000" />
       <workItem from="1575432927993" duration="1359000" />
       <workItem from="1575447713963" duration="2717000" />
-      <workItem from="1575510925720" duration="5138000" />
+      <workItem from="1575510925720" duration="6585000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式-单例模式">
       <created>1574660471680</created>
@@ -238,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575450459473</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="享元模式">
+      <created>1575525700824</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575525700824</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +270,8 @@
     <MESSAGE value="组合模式" />
     <MESSAGE value="装饰者模式补全了super关键字" />
     <MESSAGE value="外观模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="外观模式" />
+    <MESSAGE value="享元模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="享元模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
