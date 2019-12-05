@@ -7,7 +7,7 @@ package proxy.staticproxy;
  */
 public class TeachProxy implements ITeach {
 
-    private Teacher teacher;
+    private ITeach teacher;
 
     public TeachProxy(Teacher teacher) {
         this.teacher = teacher;
@@ -18,6 +18,6 @@ public class TeachProxy implements ITeach {
     @Override
     public void teach() {
         teacher.teach();
-        System.out.println("静态代理，实现(继承) 同一个接口(父类)，聚合被代理对象");
+        System.out.println("静态代理，实现(继承) 同一个接口(父类)，聚合这个接口(父类)");
     }
 }

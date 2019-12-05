@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d37c639e-9d6a-4769-8d4f-b72e7e40a4be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/proxy/staticproxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/staticproxy/ITeach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/staticproxy/TeachProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/staticproxy/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proxy/staticproxy/TeachProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proxy/staticproxy/TeachProxy.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +175,7 @@
       <workItem from="1575425216317" duration="5859000" />
       <workItem from="1575432927993" duration="1359000" />
       <workItem from="1575447713963" duration="2717000" />
-      <workItem from="1575510925720" duration="6585000" />
+      <workItem from="1575510925720" duration="6671000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式-单例模式">
       <created>1574660471680</created>
@@ -243,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575525700824</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="代理模式--静态代理">
+      <created>1575527152651</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575527152651</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +275,8 @@
     <MESSAGE value="装饰者模式补全了super关键字" />
     <MESSAGE value="外观模式" />
     <MESSAGE value="享元模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="享元模式" />
+    <MESSAGE value="代理模式--静态代理" />
+    <option name="LAST_COMMIT_MESSAGE" value="代理模式--静态代理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
