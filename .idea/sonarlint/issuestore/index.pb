@@ -63,3 +63,11 @@ I
 src/composite/Client.java,7\8\78bd26a48d09d8a82ee7cc905f823fc464dbc2de
 M
 src/composite/University.java,5\2\52ae21226933c4e39000cbb8e9bc8a21b5106ba2
+F
+src/facade/Facade.java,f\b\fb1219c53a57be1494ba0d9fd61f341820c02d77
+J
+src/facade/SubSystemA.java,e\a\eaab0b51e0f5823ca6bef9c6ed82a33440694aeb
+J
+src/facade/SubSystemB.java,2\c\2cb43b5befbbc9f2b216b72641a56e35fe3d688b
+F
+src/facade/Client.java,a\f\af803e739cfe9de6641c61b8c21cc4de061b8a37
