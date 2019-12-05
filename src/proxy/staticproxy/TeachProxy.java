@@ -7,7 +7,7 @@ package proxy.staticproxy;
  */
 public class TeachProxy implements ITeach {
 
-    private ITeach teacher;
+    private ITeach teacher; // 代理对象，这里通过接口来聚合
 
     public TeachProxy(Teacher teacher) {
         this.teacher = teacher;
