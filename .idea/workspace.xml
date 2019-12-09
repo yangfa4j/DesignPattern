@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d37c639e-9d6a-4769-8d4f-b72e7e40a4be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/proxy/dynamicproxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/dynamicproxy/ITeach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/dynamicproxy/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/dynamicproxy/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/cglib/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/cglib/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/Cooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proxy/dynamicproxy/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proxy/dynamicproxy/ProxyFactory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,10 +53,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="sshConsole" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="proxy.cglib" />
       <recent name="proxy.dynamicproxy" />
       <recent name="adapter.interfaceadapter" />
     </key>
@@ -73,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (4)">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="facade.Client" />
       <module name="designPattern" />
@@ -126,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="decorator.Client" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="template.Client" />
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="decorator.*" />
+          <option name="PATTERN" value="template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +185,8 @@
       <workItem from="1575432927993" duration="1359000" />
       <workItem from="1575447713963" duration="2717000" />
       <workItem from="1575510925720" duration="6671000" />
+      <workItem from="1575594571473" duration="5515000" />
+      <workItem from="1575854512247" duration="1264000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式-单例模式">
       <created>1574660471680</created>
@@ -265,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575527388598</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="代理模式--动态代理">
+      <created>1575537331919</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575537331919</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +308,8 @@
     <MESSAGE value="外观模式" />
     <MESSAGE value="享元模式" />
     <MESSAGE value="代理模式--静态代理" />
-    <option name="LAST_COMMIT_MESSAGE" value="代理模式--静态代理" />
+    <MESSAGE value="代理模式--动态代理" />
+    <option name="LAST_COMMIT_MESSAGE" value="代理模式--动态代理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
