@@ -2,15 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d37c639e-9d6a-4769-8d4f-b72e7e40a4be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/proxy/cglib/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/cglib/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/Cooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07cc71bf407496cf418ebce6ce2744017411d73a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/104a2593ef6a8badf56a99a85049e38d13e5cc1d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1ba107eabbac9406b0332a4f0def3d8fdb62d998" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/20a1cafca5e90114c2306e2ed913069b0e37f132" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23b2a4a90e1b4c65ccb552cf85ff7bf0cd54fb91" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cb43b5befbbc9f2b216b72641a56e35fe3d688b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f876712a4279450b9ea88f2138375ca09d70cb9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52ae21226933c4e39000cbb8e9bc8a21b5106ba2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53ba62531a9c8ce522ad609d68368fa538b5a50a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5eb0ea51dc0c808185afcc4e0b800a1d62a81f66" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68eed9ae6c13260eb40db2585943e2864ad8c7a5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e018e93a8bbfb7a6ab4f16b005380aa9b81f9c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78bd26a48d09d8a82ee7cc905f823fc464dbc2de" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bc595c5f3c10d48abe4aa63717907439cab33da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86c1359c93e8b733f73b5fd56e204b10496b961f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/870ccf853c4c8fc5736fa00d918d2cdffedd0eba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a73a9f8520f635a10f6ec93d40918419747874a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/92493901e2d0bc9943e8daf38e63983644868b13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8e942144f79709471c11275425919d7e04d1b37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af803e739cfe9de6641c61b8c21cc4de061b8a37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b61232f3a6be94ec9e72fb92546380c83e99eb03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0de92ece4e16abd0d13e3da70a6f67143d6c93e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e542f6c0cd3f59f0572e7afa99caa0ffe165c990" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eaab0b51e0f5823ca6bef9c6ed82a33440694aeb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb1219c53a57be1494ba0d9fd61f341820c02d77" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/LightExecute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/RemoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/proxy/dynamicproxy/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proxy/dynamicproxy/ProxyFactory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +55,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/command/Client.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1Te4QaJQ6Vwy3c2vhpYqtn57IrG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -78,20 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="facade.Client" />
-      <module name="designPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Client (5)">
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="flyweight.Client" />
       <module name="designPattern" />
@@ -131,6 +148,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="command.Client" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="template.Client" />
       <module name="designPattern" />
@@ -146,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +216,7 @@
       <workItem from="1575447713963" duration="2717000" />
       <workItem from="1575510925720" duration="6671000" />
       <workItem from="1575594571473" duration="5515000" />
-      <workItem from="1575854512247" duration="1264000" />
+      <workItem from="1575854512247" duration="8281000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式-单例模式">
       <created>1574660471680</created>
@@ -279,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575537331919</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="模板模式">
+      <created>1575862239922</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575862239922</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +346,8 @@
     <MESSAGE value="享元模式" />
     <MESSAGE value="代理模式--静态代理" />
     <MESSAGE value="代理模式--动态代理" />
-    <option name="LAST_COMMIT_MESSAGE" value="代理模式--动态代理" />
+    <MESSAGE value="模板模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="模板模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
