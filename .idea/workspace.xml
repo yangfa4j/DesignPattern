@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d37c639e-9d6a-4769-8d4f-b72e7e40a4be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/visitor/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/Fail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/ObjectStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/Success.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/Woman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/College.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/ComputerCollegeIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/InfoCollegeIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/OutPut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -82,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="visitor.Client" />
       <module name="designPattern" />
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proxy.staticproxy.Client" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iterator.Client" />
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="proxy.staticproxy.*" />
+          <option name="PATTERN" value="iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (4)" />
-        <item itemvalue="Application.Client (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +191,8 @@
       <workItem from="1575510925720" duration="6671000" />
       <workItem from="1575594571473" duration="5515000" />
       <workItem from="1575854512247" duration="10117000" />
-      <workItem from="1575943781751" duration="5006000" />
+      <workItem from="1575943781751" duration="13852000" />
+      <workItem from="1576029512092" duration="1270000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式-单例模式">
       <created>1574660471680</created>
@@ -298,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575881698338</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="访问者模式——再学习！">
+      <created>1575960427845</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1575960427845</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +338,8 @@
     <MESSAGE value="代理模式--动态代理" />
     <MESSAGE value="模板模式" />
     <MESSAGE value="命令模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="命令模式" />
+    <MESSAGE value="访问者模式——再学习！" />
+    <option name="LAST_COMMIT_MESSAGE" value="访问者模式——再学习！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
