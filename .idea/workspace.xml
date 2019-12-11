@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d37c639e-9d6a-4769-8d4f-b72e7e40a4be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/iterator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iterator/College.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iterator/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iterator/ComputerCollegeIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iterator/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iterator/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iterator/InfoCollegeIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iterator/OutPut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/Clent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/CurrentConditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/WeatherData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -82,7 +78,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.Clent">
+    <configuration name="Clent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observer.Clent" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="visitor.Client" />
       <module name="designPattern" />
@@ -102,19 +111,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="iterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proxy.dynamicproxy.Client" />
-      <module name="designPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="proxy.dynamicproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Clent" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Client (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +188,7 @@
       <workItem from="1575594571473" duration="5515000" />
       <workItem from="1575854512247" duration="10117000" />
       <workItem from="1575943781751" duration="13852000" />
-      <workItem from="1576029512092" duration="1270000" />
+      <workItem from="1576029512092" duration="7046000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式-单例模式">
       <created>1574660471680</created>
@@ -306,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575960427845</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="迭代者模式">
+      <created>1576034981964</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1576034981964</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +342,8 @@
     <MESSAGE value="模板模式" />
     <MESSAGE value="命令模式" />
     <MESSAGE value="访问者模式——再学习！" />
-    <option name="LAST_COMMIT_MESSAGE" value="访问者模式——再学习！" />
+    <MESSAGE value="迭代者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="迭代者模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
