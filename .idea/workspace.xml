@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d37c639e-9d6a-4769-8d4f-b72e7e40a4be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mediator/ChatRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mediator/MediatorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mediator/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/Caretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/Originator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MediatorPatternDemo">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Clent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="observer.Clent" />
       <module name="designPattern" />
@@ -116,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="command.Client" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memento.Client" />
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="command.*" />
+          <option name="PATTERN" value="memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.MediatorPatternDemo" />
         <item itemvalue="Application.Clent" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +188,8 @@
       <workItem from="1575854512247" duration="10117000" />
       <workItem from="1575943781751" duration="13852000" />
       <workItem from="1576029512092" duration="9779000" />
-      <workItem from="1576132580037" duration="1199000" />
+      <workItem from="1576132580037" duration="3201000" />
+      <workItem from="1576200862782" duration="1421000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式-单例模式">
       <created>1574660471680</created>
@@ -315,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576052025443</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="中介者模式">
+      <created>1576136118737</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1576136118737</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +359,8 @@
     <MESSAGE value="访问者模式——再学习！" />
     <MESSAGE value="迭代者模式" />
     <MESSAGE value="观察者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="观察者模式" />
+    <MESSAGE value="中介者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="中介者模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
